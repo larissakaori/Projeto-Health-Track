@@ -1,0 +1,110 @@
+body {
+    font-family:  "Nunito",  sans-serif;
+    background-image: linear-gradient(#f00, #ff0) !important;
+    background-attachment: fixed;
+}
+
+form {
+    max-width:  400px;
+    margin:  10px auto;
+    padding:  10px 20px;
+    background:  #fdfdfd69;
+    border-radius:  8px;
+    font-weight: bold;
+}
+
+h1 {
+    margin:  0 0 30px 0;
+    text-align:  center;
+}
+
+h2 {
+    margin:  0 0 30px 0;
+    text-align:  center;
+    color: #fff;
+    font-family: "Nunito",  sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+input[type="email"],  input[type="password"]{
+    border:  none;
+    font-family: "Nunito",  sans-serif;
+    display: block;
+    font-size:  15px;
+    margin:  0 auto;
+    padding:  15px;
+    width:  100%;
+    font-family: "Nunito", sans-serif #000;
+    background-color:  #ffffff;
+    color:  #6e6e6e;
+    box-shadow:  0 0 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom:  30px;
+}
+
+input:focus{
+    background-color: #d4d4d4;
+}
+
+button  {
+    padding:  15px 39px 15px 39px;
+    color:  rgb(0, 0, 0);
+    background-color:  #c0c0c0;
+    font-size:  18px;
+    font-weight: bold;
+    text-align:  center;
+    font-style:  normal;
+    border-radius:  5px;
+    width:  100%;
+    box-shadow:  0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+button:hover{
+    background-color:  #aaaaaa;
+}
+
+h2 {
+    text-align:  center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#esquecisenha {
+    font-family: "Nunito",  sans-serif;
+    text-decoration: underline;
+    color: #a3a3a3;
+    font-size: 15px;
+}
+
+#esquecisenha:hover {
+    text-decoration: underline;
+    color: #8d8d8d;
+    font-size: 15px;
+}
+
+p {
+    font-family: "Nunito",  sans-serif;
+    color: #5c5c5c;
+    font-size: 16px;
+}
+
+#criarconta {
+    font-family: "Nunito",  sans-serif;
+    font-weight: bold;
+    color: #1556b9;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 480px)  {
+    form  {
+    max-width:  480px;
+}
+}
